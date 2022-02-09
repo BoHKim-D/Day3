@@ -4,7 +4,7 @@ let small = 0;
 let large = 0;
 
 // Write your solution below:
-for (let i = 0; i <= array.length; i++){
+for (let i = 0; i < array.length; i++){
     if (small > array[i]){
         small = array[i];
     }
